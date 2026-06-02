@@ -1,4 +1,4 @@
-# Perfume · بيرفيوم
+# Perfume  بيرفيوم
 
 A **local-first, fully offline, bilingual (English / Arabic)** perfume companion — a personal
 fragrance journal, collection manager and scent-knowledge base that runs entirely in the
@@ -12,7 +12,7 @@ browser and ships to Android via Capacitor.
 
 ---
 
-## Highlights · المزايا
+## Highlights  المزايا
 
 - **100% local & offline.** All data lives in the browser's IndexedDB on the device. No
   account, no login, no server, no cloud sync, no tracking. Data never leaves the device.
@@ -25,14 +25,14 @@ browser and ships to Android via Capacitor.
   bulk-adding and editing every entity, plus encrypted local backup/restore.
 - **Installable.** Runs as a web app or builds to a native Android package with Capacitor.
 
-## Tech stack · التقنيات
+## Tech stack  التقنيات
 
 React 18 · Vite · Tailwind CSS · React Router · TanStack Query · IndexedDB (local data layer) ·
 Capacitor (Android shell) · shadcn/ui · lucide-react.
 
 ---
 
-## Quick start · البدء السريع
+## Quick start  البدء السريع
 
 ```bash
 # 1. install
@@ -58,7 +58,7 @@ App id: `com.perfume.app` · see `MOBILE_AND_WINDOWS.md` and `WINDOWS_SETUP.md` 
 
 ---
 
-## How data is seeded · كيف تُزرع البيانات
+## How data is seeded  كيف تُزرع البيانات
 
 On first launch the app seeds its bundled JSON into IndexedDB (see `src/lib/localSeeder.js`).
 
@@ -89,7 +89,7 @@ Drop shard files into `public/seed/` and append their filenames to the `shards` 
 
 ---
 
-## Project layout · بنية المشروع
+## Project layout  بنية المشروع
 
 ```
 src/
