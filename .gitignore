@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+# Build output
+dist/
+dist-ssr/
+# Capacitor native shells (generated)
+android/
+ios/
+# Logs & env
+*.log
+.env
+.env.*
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
